@@ -2,6 +2,8 @@
 // import SearchBarForm from "./SearchBarForm";
 // import getTeams from "@/app/util/getTeams";
 
+import SearchBarForm from "./SearchBarForm";
+
 export default async function SearchBar() {
   // let teamsData: Team[] = await getTeams();
 
@@ -20,8 +22,11 @@ export default async function SearchBar() {
         </a>
       </div>
       <div className="w-4/6 flex justify-center items-center">
-        {/* <SearchBarForm teamsData={teamsData} /> */}
-        {"Search Bar Form"}
+        <SearchBarForm 
+        // teamsData={teamsData} 
+        /> 
+        {/* 
+        */}
       </div>
       <div className="w-1/6"></div>
     </div>
